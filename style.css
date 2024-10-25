@@ -1,0 +1,171 @@
+body{
+    font-family: arial,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    font-family:sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+header h1{
+    color:rgb(83, 21, 142);
+}
+ header li{
+    display: inline;
+    padding: 15px;
+}
+header li a:hover{
+    color: blueviolet;
+    border-bottom: 2px solid blueviolet;
+}
+header li a{
+    color: grey;
+    text-decoration: none;
+}
+
+
+/* home page  */
+.container {
+    position: relative;
+    height:600px;
+    width: 100%; 
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .container .content {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 150px; 
+    background: rgb(0, 0, 0); 
+    background: rgba(169, 210, 220, 0.5);
+    color: #f1f1f1; 
+    height: 250px;
+    width: 50%;
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 10px;
+  }
+  .container .content h1{
+    font-size: 45px;
+    color: rgba(227, 222, 222, 0.854);
+  }
+  .container .content button{
+    background:#fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: #502323;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  }
+
+  /* about us  */
+
+.abouts{
+    width: 80%;
+    margin:50px auto ;
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+}
+.abouts .intro{
+   margin-top: 50px;
+   text-align: justify;
+}
+.abouts .intro h2{
+    color: rgb(129, 42, 251);
+}
+ .abouts  .image img{
+   height: 300px;
+   border-radius: 15px;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+/* destination */
+#destination{
+    padding: 20px;
+    background: #e2e2e2;
+    height: auto;
+}
+.destinations{
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.destinations .desti{
+    padding: 10px;
+     height: auto;
+     width: 280px;
+     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+     background:#fff;
+     text-align: center;
+}
+.destinations .desti button{
+    background: #c5d0e9;
+    padding: 5px  40px;
+    border: none;
+    border-radius: 55px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+.destinations .desti img{
+    height: 200px;
+    width:280px;
+    border-radius: 10px;
+}
+/* contact */
+.parent{
+    height: 500px;
+    width: 80%;
+    margin:100px auto;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.contacts{
+    height: 370px;
+    width: 500px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+input{
+    margin-top: 5px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+textarea{
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+}
+.parent .contacts button{
+    margin: 10px auto;
+    background: #830cdf71;
+    color: #fff;
+    padding: 15px  40px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+/* footer */
+footer{
+    padding: 20px;
+    height: auto;
+    text-align: center;
+    background: #323131;
+    color: #fff;
+    margin: 20px;
+}
